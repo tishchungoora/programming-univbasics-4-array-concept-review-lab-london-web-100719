@@ -3,8 +3,8 @@ end
 
 def find_max_number(array)
   max_num = array.first
-  array.each { |index|
-  if max_num < array[index] then max_num = array[index] end
+  array.each { |n|
+  max_num = n if max_num > array[index] end
   }
   max_num
 end
