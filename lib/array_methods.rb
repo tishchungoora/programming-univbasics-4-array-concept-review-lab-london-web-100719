@@ -2,9 +2,9 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_number(array)
-  max_num = array.first
-  array.each { |n|
-  max_num = n if n > max_num
+  max_num = array[0]
+  array.each { |index|
+  max_num = array[index] if array[index] > max_num
   }
   max_num
 end
