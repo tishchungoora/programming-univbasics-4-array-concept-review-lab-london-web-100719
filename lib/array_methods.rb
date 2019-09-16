@@ -6,6 +6,7 @@ def find_max_number(array)
   array.length.times { |x|
   if max_num < array[x] then max_num = array[x] end
   }
+  max_num
 end
 
 # Alternative implementation that doesn't loop through the array to find the max value
