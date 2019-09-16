@@ -4,7 +4,7 @@ end
 def find_max_number(array)
   max_num = array[0]
   array.length.times { |index|
-  if max_num < array[index] 
+  if max_num < array[index] then 
   }
   max_num
 end
