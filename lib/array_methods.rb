@@ -4,7 +4,7 @@ end
 def find_max_number(array)
   max_num = array.first
   array.each { |n|
-  max_num = n if max_num > array[index] end
+  max_num = n if n > max_num
   }
   max_num
 end
