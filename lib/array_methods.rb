@@ -8,7 +8,8 @@ def find_max_number(array)
   }
 end
 
-# Alternative implementation that doesn't 
+# Alternative implementation that doesn't loop through the array to find the max value
+
 =begin
 def find_max_value(array)
   array.max
